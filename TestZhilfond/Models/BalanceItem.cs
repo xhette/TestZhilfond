@@ -3,9 +3,9 @@
     public class BalanceItem
     {
         public string PeriodName { get; set; }
-        public float InBalanceStart { get; set; }
-        public float InBalanceEnd { get; set; }
-        public float Calculation { get; set; }
-        public float Payment { get; set; }
+        public double? InBalanceStart { get; set; }
+        public double? InBalanceEnd { get; set; }
+        public double? Calculation { get; set; }
+        public double? Payment { get; set; }
     }
 }

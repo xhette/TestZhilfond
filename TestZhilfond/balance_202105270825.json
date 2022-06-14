@@ -1,5 +1,4 @@
-{
-"balance": [
+[
 	{
 		"account_id" : 808251,
 		"period" : 202003,
@@ -162,4 +161,4 @@
 		"in_balance" : 3702.91,
 		"calculation" : 3872.25
 	}
-]}
+]

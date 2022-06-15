@@ -25,7 +25,7 @@ namespace TestZhilfond.Database
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.\\SQLExpress;Database=ZhilfondDb;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=.\\SQLExpress;Database=ZhilfondDb2;Trusted_Connection=True;");
             }
         }
 

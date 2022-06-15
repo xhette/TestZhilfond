@@ -66,7 +66,7 @@ namespace TestZhilfond.Controllers
                     }
                 }
 
-                return NotFound();
+                return NotFound("По данному идентификатору не найдено записей");
             }
             catch (Exception ex)
             {
